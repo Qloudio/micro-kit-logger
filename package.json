@@ -1,0 +1,44 @@
+{
+  "name": "micro-kit-logger",
+  "version": "0.0.1",
+  "description": "Micro Kit Logging utility for node docker micro services.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha test --recursive",
+    "coverage": "istanbul cover _mocha -- -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qloudio/micro-service-logger.git"
+  },
+  "keywords": [
+    "logging",
+    "logger",
+    "docker",
+    "kibana",
+    "node",
+    "micro",
+    "kit"
+  ],
+  "author": "Nejc Horvat <nejc@qloud.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qloudio/micro-kit-loggerissues"
+  },
+  "homepage": "https://github.com/Qloudio/micro-kit-logger#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "common-errors": "^0.5.7",
+    "node-common-errors": "^0.4.0",
+    "uuid": "^2.0.2"
+  }
+}
